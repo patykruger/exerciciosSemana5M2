@@ -1,0 +1,54 @@
+/* Estilos para a lista de contatos */
+
+h1 {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #6a4e42;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.contato-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.contato-imagem {
+  width: 60px;
+  height: 60px;
+  border-radius: 60%;
+  margin-right: 20px;
+}
+
+.contato-info {
+  flex-grow: 1;
+}
+
+.contato-nome {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contato-descricao {
+  font-size: 16px;
+  color: #65350f;
+}
+
+.contato-status {
+  font-size: 15px;
+  color: #999;
+}
+
+/* Estilos para status dos contatos */
+.ativo {
+  color: green;
+}
+
+.ausente {
+  color: orange;
+}
+
+.inativo {
+  color: red;
+}
